@@ -1,4 +1,5 @@
 {
     "elixirLS.dialyzerEnabled": false,
-    "elixirLS.suggestSpecs": false
+    "elixirLS.suggestSpecs": false,
+    "elixir.credo.configurationFile": "/home/lucas/.credo.exs"
 }

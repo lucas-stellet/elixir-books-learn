@@ -24,4 +24,8 @@ defmodule MyList do
 
   def max([x]), do: x
   def max([hd | tl]), do: Kernel.max(hd, max(tl))
+
+  def swap([]), do: []
+  def swap([a, b | tl]), do: [b, a | swap(tl)]
+  def swap([_]), do: raise("Cant swap a list with an odd number of elements")
 end
