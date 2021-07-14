@@ -22,6 +22,6 @@ defmodule MyList do
     func.(hd) + mapsum(tl, func)
   end
 
-  #def max([x]), do: x
+  def max([x]), do: x
   def max([hd | tl]), do: Kernel.max(hd, max(tl))
 end
