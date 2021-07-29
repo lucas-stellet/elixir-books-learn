@@ -1,3 +1,0 @@
-<h3> <b> ID: </b> <%= @user.id %></h3>
-<p><b>Name: </b> <%= first_name(@user) %></p>
-<p><b>Username: </b> <%= username(@user) %></p>

@@ -1,5 +1,5 @@
 {
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.suggestSpecs": false,
-    "elixir.credo.configurationFile": "/home/lucas/.credo.exs"
+    // "elixir.credo.configurationFile": "/home/lucas/.credo.exs"
 }
