@@ -4,9 +4,9 @@ defmodule Stack do
   def pop!(stack) when not is_list(stack), do: raise_not_list_error()
 
   def pop!(stack) do
-    {_, poped_stack} = List.pop_at(stack, -1)
+    {element_popped, _} = List.pop_at(stack, -1)
 
-    poped_stack
+    element_popped
   end
 
   def push!(stack, _element) when not is_list(stack),

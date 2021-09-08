@@ -9,7 +9,7 @@ defmodule Parallel do
     end)
     |> Enum.map(fn pid ->
       receive do
-        {pid, result} ->
+        {_pid, result} ->
           result
       end
     end)
